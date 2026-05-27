@@ -116,7 +116,7 @@ const Project = () => {
                 </p>
                 <div className="d-flex justify-content-center gap-2">
                   <a
-                    href="https://task-manager-demo.vercel.app"
+                    href="https://mern-stack-todo-application-frontend.onrender.com"
                     target="_blank"
                     rel="noreferrer"
                     className="btn btn-warning btn-sm fw-bold"
@@ -124,7 +124,7 @@ const Project = () => {
                     Live Demo
                   </a>
                   <a
-                    href="https://github.com/yourgithub/task-manager"
+                    href="https://github.com/Hariiharan-Developer/MERN-Stack-ToDo-Application"
                     target="_blank"
                     rel="noreferrer"
                     className="btn btn-outline-warning btn-sm fw-bold"
@@ -136,6 +136,45 @@ const Project = () => {
             </div>
           </div>
         </div>
+
+         {/* Project 4 */}
+          <div className="col-md-4">
+            <div className="card h-100  border border-2 border-warning shadow text-light" style={{background:'#111111',padding:'0 10px'}}>
+              <img
+                src={project1}
+                className="card-img-top "
+                alt="Project 1"
+                style={{ maxHeight: "180px", objectFit: "cover" }}
+              />
+              <div className="card-body">
+                <h5 className="fw-bold" style={{ color: "#FFD700" }}>
+                  O.Auth System
+                </h5>
+                <p className="text-secondary small">
+                  Full-stack Auth system  built with React, Node, Express,
+                  MongoDB, and Nodemail for OTP VErifiaction.
+                </p>
+                <div className="d-flex justify-content-center gap-2">
+                  <a
+                    href="https://auth-controller.onrender.com"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="btn btn-warning btn-sm fw-bold"
+                  >
+                    Live Demo
+                  </a>
+                  <a
+                    href="hhttps://github.com/Hariiharan-Developer/Auth-Controller"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="btn btn-outline-warning btn-sm fw-bold"
+                  >
+                    View Code
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
 
         {/* Extra CTA */}
         <div className="mt-5">
